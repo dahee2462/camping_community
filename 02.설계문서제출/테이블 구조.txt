@@ -27,35 +27,68 @@ Q&A - Q&A 테이블 조회 날짜순 정렬??? 정렬용 컬럼 필요
 
 
 reply의 r, member의 m 피해야함
+--------------------------------
 
-공지사항 테이블 notice
+공지사항 게시판
+공지사항 게시글 테이블 notice
 컬럼명
 게시글 번호(기본키), 게시글 제목, 게시글 작성자(외래키), 게시글 내용, 게시글 등록일, 게시글 삭제여부, 첨부파일 번호(외래키)
-nno, ntitle, nwriter, ncontent, nrdate, ndelyn 
+nno, ntitle, nwriter, ncontent, nrdate, ndelyn
 
+공지사항 댓글 테이블
+
+공지사항 첨부파일 테이블
+
+--------------------------------
+
+지역게시판
 지역테이블 zone
 컬럼명
 게시글 번호(기본키), 게시글 제목, 게시글 작성자(외래키), 게시글 내용, 게시글 등록일, 게시글 삭제여부, 첨부파일 번호(외래키),지역명
-zno, ztitle, zwriter, zcontent, zrdate, zdelyn zone
+zno, ztitle, zwriter, zcontent, zrdate, zdelyn zone, zhit
+
+지역 댓글 테이블
+지역 첨부파일 테이블
+
+--------------------------------
 
 장비테이블 gear
 컬럼명
 게시글 번호(기본키), 게시글 제목, 게시글 작성자(외래키), 게시글 내용, 게시글 등록일, 게시글 삭제여부, 첨부파일 번호(외래키),장비명
-gno, gtitle, gwriter, gcontent, grdate, gdelyn, gquip
+gno, gtitle, gwriter, gcontent, grdate, gdelyn, gquip, ghit
+
+장비 댓글 테이블
+장비 첨부파일 테이블
+
+--------------------------------
 
 자유게시판 테이블 free
 게시글 번호(기본키), 게시글 제목, 게시글 작성자(외래키), 게시글 내용, 게시글 등록일, 게시글 삭제여부, 첨부파일 번호(외래키)
-fno, ftitle, fwriter, fcontent, frdate, fdelyn 
+fno, ftitle, fwriter, fcontent, frdate, fdelyn, fhit
+
+자유게시판 댓글 테이블
+자유게시판 첨부파일 테이블
+
+--------------------------------
 
 출석체크 테이블 attendment
 게시글 번호(기본키), 게시글 제목, 게시글 작성자(외래키), 게시글 내용, 게시글 등록일, 게시글 삭제여부
 ano, atitle, awriter, acontent, ardate, adelyn 
 
+출석체크 댓글 테이블
+
+--------------------------------
+
 Q&A 테이블 question
 게시글 번호(기본키), 게시글 제목, 게시글 작성자(외래키), 게시글 내용, 게시글 등록일, 게시글 삭제여부, 첨부파일 번호(외래키)
 qno, qtitle, qwriter, qcontent, qrdate, qdelyn 
 
+댓글 테이블
+첨부파일 테이블
 
+--------------------------------
+
+멤버테이블
 
 
 수정사항
