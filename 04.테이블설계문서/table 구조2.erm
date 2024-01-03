@@ -11,8 +11,8 @@
 	</page_setting>
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
-	<x>5</x>
-	<y>464</y>
+	<x>291</x>
+	<y>851</y>
 	<default_color>
 		<r>128</r>
 		<g>128</g>
@@ -41,11 +41,11 @@
 		<suspend_validator>false</suspend_validator>
 		<export_setting>
 			<export_ddl_setting>
-				<output_path></output_path>
-				<encoding></encoding>
-				<line_feed></line_feed>
+				<output_path>04.테이블설계문서\table 구조2.sql</output_path>
+				<encoding>UTF-8</encoding>
+				<line_feed>CR+LF</line_feed>
 				<is_open_after_saved>true</is_open_after_saved>
-				<environment_id>null</environment_id>
+				<environment_id>0</environment_id>
 				<category_id>null</category_id>
 				<ddl_target>
 					<create_comment>true</create_comment>
@@ -135,7 +135,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2024-01-03 13:21:29</creation_date>
-			<updated_date>2024-01-03 15:03:18</updated_date>
+			<updated_date>2024-01-03 15:29:18</updated_date>
 			<model_property>
 				<name>프로젝트명</name>
 				<value></value>
@@ -610,22 +610,6 @@
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
-			<unsigned>true</unsigned>
-			<zerofill>false</zerofill>
-			<binary>false</binary>
-			<args></args>
-			<char_semantics>false</char_semantics>
-			<description></description>
-			<logical_name>댓글 번호</logical_name>
-			<physical_name>grno</physical_name>
-			<type>integer</type>
-		</word>
-		<word>
-			<id>28</id>
-			<length>null</length>
-			<decimal>null</decimal>
-			<array>false</array>
-			<array_dimension>null</array_dimension>
 			<unsigned>false</unsigned>
 			<zerofill>false</zerofill>
 			<binary>false</binary>
@@ -637,7 +621,7 @@
 			<type>timestamp</type>
 		</word>
 		<word>
-			<id>29</id>
+			<id>28</id>
 			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
@@ -653,7 +637,7 @@
 			<type>timestamp</type>
 		</word>
 		<word>
-			<id>30</id>
+			<id>29</id>
 			<length>null</length>
 			<decimal>null</decimal>
 			<array>false</array>
@@ -667,6 +651,22 @@
 			<logical_name>첨부파일 등록일</logical_name>
 			<physical_name>grrdate</physical_name>
 			<type>timestamp</type>
+		</word>
+		<word>
+			<id>30</id>
+			<length>null</length>
+			<decimal>null</decimal>
+			<array>false</array>
+			<array_dimension>null</array_dimension>
+			<unsigned>true</unsigned>
+			<zerofill>false</zerofill>
+			<binary>false</binary>
+			<args></args>
+			<char_semantics>false</char_semantics>
+			<description></description>
+			<logical_name>댓글 번호</logical_name>
+			<physical_name>grrno</physical_name>
+			<type>integer</type>
 		</word>
 		<word>
 			<id>31</id>
@@ -1266,7 +1266,7 @@
 			<decimal>null</decimal>
 			<array>false</array>
 			<array_dimension>null</array_dimension>
-			<unsigned>false</unsigned>
+			<unsigned>true</unsigned>
 			<zerofill>false</zerofill>
 			<binary>false</binary>
 			<args></args>
@@ -1274,7 +1274,7 @@
 			<description></description>
 			<logical_name>첨부파일 번호</logical_name>
 			<physical_name>znfno</physical_name>
-			<type></type>
+			<type>integer</type>
 		</word>
 		<word>
 			<id>69</id>
@@ -1472,7 +1472,7 @@
 			<connections>
 				<relation>
 					<id>0</id>
-					<source>13</source>
+					<source>1</source>
 					<target>0</target>
 						<source_xp>-1</source_xp>
 						<source_yp>-1</source_yp>
@@ -1494,7 +1494,7 @@
 				</relation>
 				<relation>
 					<id>1</id>
-					<source>1</source>
+					<source>13</source>
 					<target>0</target>
 						<source_xp>-1</source_xp>
 						<source_yp>-1</source_yp>
@@ -1624,7 +1624,7 @@
 				<normal_column>
 					<id>3</id>
 					<referenced_column>5</referenced_column>
-					<relation>1</relation>
+					<relation>0</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -1658,7 +1658,7 @@
 				<normal_column>
 					<id>4</id>
 					<referenced_column>74</referenced_column>
-					<relation>0</relation>
+					<relation>1</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -2573,7 +2573,7 @@
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 			</connections>
-			<physical_name>check</physical_name>
+			<physical_name>attendcheck</physical_name>
 			<logical_name>출석체크 게시판</logical_name>
 			<description></description>
 			<constraint></constraint>
@@ -2936,7 +2936,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>28</word_id>
+					<word_id>27</word_id>
 					<id>34</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -3148,7 +3148,7 @@
 			<option></option>
 			<columns>
 				<normal_column>
-					<word_id>27</word_id>
+					<word_id>30</word_id>
 					<id>38</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -3214,7 +3214,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>29</word_id>
+					<word_id>28</word_id>
 					<id>40</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -3386,7 +3386,7 @@
 					<referenced_complex_unique_key>null</referenced_complex_unique_key>
 				</relation>
 			</connections>
-			<physical_name>check_reply</physical_name>
+			<physical_name>attendcheck_reply</physical_name>
 			<logical_name>출석체크 댓글</logical_name>
 			<description></description>
 			<constraint></constraint>
@@ -3717,7 +3717,7 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>30</word_id>
+					<word_id>29</word_id>
 					<id>51</id>
 					<description></description>
 					<unique_key_name></unique_key_name>
@@ -3812,7 +3812,7 @@
 			<connections>
 				<relation>
 					<id>12</id>
-					<source>15</source>
+					<source>1</source>
 					<target>9</target>
 						<source_xp>-1</source_xp>
 						<source_yp>-1</source_yp>
@@ -3834,7 +3834,7 @@
 				</relation>
 				<relation>
 					<id>13</id>
-					<source>1</source>
+					<source>15</source>
 					<target>9</target>
 						<source_xp>-1</source_xp>
 						<source_yp>-1</source_yp>
@@ -3964,7 +3964,7 @@
 				<normal_column>
 					<id>56</id>
 					<referenced_column>5</referenced_column>
-					<relation>13</relation>
+					<relation>12</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -3998,7 +3998,7 @@
 				<normal_column>
 					<id>57</id>
 					<referenced_column>85</referenced_column>
-					<relation>12</relation>
+					<relation>13</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
@@ -4349,10 +4349,10 @@
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
 					<physical_name></physical_name>
-					<type></type>
+					<type>integer</type>
 					<constraint></constraint>
 					<default_value></default_value>
-					<auto_increment>false</auto_increment>
+					<auto_increment>true</auto_increment>
 					<foreign_key>false</foreign_key>
 					<not_null>true</not_null>
 					<primary_key>true</primary_key>
