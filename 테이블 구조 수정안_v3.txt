@@ -94,7 +94,7 @@ fno, frealNm, foriginNm rdate
 게시글 번호(기본키), 게시글 제목,  게시글 내용, 게시글 등록일 ,게시글 조회수, 게시글 작성자(외래키)
 chno, chtitle, chcontent, chrdate, chhit
 
-출석체크 댓글 테이블
+출석체크 댓글 테이블 checkreply
 댓글 번호(기본키),댓글 내용, 댓글 작성일, 댓글 작성자(외래키), 게시글 번호(외래키)
 rno, rcontent, rdate
 

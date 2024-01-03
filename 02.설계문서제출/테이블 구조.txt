@@ -88,8 +88,9 @@ qno, qtitle, qwriter, qcontent, qrdate, qdelyn
 
 --------------------------------
 
-멤버테이블
-
+멤버테이블 member
+회원번호, 아이디, 비밀번호, 닉네임, 이름, 생년월일, 성별, 이메일, 연락처
+mno, mid, mpw, mnickNm, mname, mbirth, mgender, memail, mphone+mphone2+mphone3
 
 수정사항
 각각 테이블 추가
