@@ -12,7 +12,7 @@
 </script>
 </head>
 <body>
-<%@ include file="/semantic/joinSemantic.jsp" %>
+<%@ include file="/include/joinSemantic.jsp" %>
 	<section>
 <!-- 회원가입 폼 -->
 		<article>
