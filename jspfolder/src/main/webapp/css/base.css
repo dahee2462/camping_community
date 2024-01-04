@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+	margin:0; padding:0; box-sizing: border-box; color: #333;
+}
+a{text-decoration: none; color: inherit;}
+ul{list-style: none;}
+
+.clearfix::after{content: ''; display: block; clear: both;}
+.left{float:left;}
+.right{float:right;}
+.bold{font-weight: bold;}
+
+/* ********************헤더************************** */
+header{
+	padding:10px; background-color: #efe6d9;
+}
+header #logo{
+	background-color: #39504d; height:100px;
+	text-align:center; line-height:100px;
+	margin: 10px 0;
+}
+#logo>a{display:inline-block; width:100%; color:#f0ede0;}
+#top_menu>a{font-weight: bold;}
+header #webserch{
+	width: 200px; height: 30px;
+	background-color: #ddd;
+	}
+/* **********************메뉴********************************* */
+nav{
+	width: 15vw; height: 90vh; float:left;
+	background-color: #efe6d9;
+}
+
+#welcome{
+	width: 100%; height:100px;
+	background-color:#f1bf3a;
+}
+.searchMain{margin:10px 20px;}
+.menu{padding:20px 10px;}
+.menu>li>a{font-weight: bold;}
+.submenu>li{padding-left:10px;}
+
+#thecheat{
+	width: 100px; height:50px;
+	background-color:yellow;
+}
+
+/* **************************본문************************************ */
+section{
+	height: 90vh;
+	margin-left:15vw; width:85vw;
+	background-color:#fff;
+}
+/* *************************푸터******************************** */
+footer{
+	height:12vh; width:100%; padding:30px 0;
+	background-color: #353631;
+}
+footer>div{text-align:center; margin-bottom:5px; color:#fff;}
+footer span{color:#fff;}
+
