@@ -14,6 +14,7 @@
 <body>
 <%@ include file="/semantic/joinSemantic.jsp" %>
 	<section>
+<!-- 회원가입 폼 -->
 		<article>
 			<h2>회원가입</h2>
 			<form name="frm" action="joinOk.jsp" method="post">
@@ -56,8 +57,8 @@
 					<tr>
 						<th align="right">성별: </th>
 						<td>
-							<input type="radio" name="mgender" >남
-							<input type="radio" name="mgender" >여
+							<input type="radio" name="mman" >남
+							<input type="radio" name="mwoman" >여
 						</td>
 					</tr>
 					<tr>
