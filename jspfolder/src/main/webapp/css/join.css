@@ -1,11 +1,1 @@
 @charset "UTF-8";
-
-/* phone input태그 */
-.phone {
-  size: 20px;
-}
-
-/* 중복확인 버튼의 스타일 */
-button {
-  size: 50px;
-}
