@@ -46,6 +46,25 @@ nav{
 	background-color:yellow;
 }
 
+/* ***************마이페이지용 메뉴****************************** */
+
+#mypagewelcome{
+	width: 100%; height:200px;
+	
+	
+}
+#mypagenickname{
+	width: 100%; font-size:30px;
+	display: inline-block;
+	margin-top:80px;
+}
+	
+#mypagename{
+	width: 100%; height:100px;
+	display: inline-block; 
+
+}
+
 /* **************************본문************************************ */
 section{
 	height: 90vh;
