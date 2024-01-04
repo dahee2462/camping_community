@@ -57,8 +57,8 @@
 					<tr>
 						<th align="right">성별: </th>
 						<td>
-							<input type="radio" name="mman" >남
-							<input type="radio" name="mwoman" >여
+							<input type="radio" name="mgender" value="M">남
+							<input type="radio" name="mgender" value="W">여
 						</td>
 					</tr>
 					<tr>
