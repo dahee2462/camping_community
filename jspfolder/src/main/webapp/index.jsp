@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>index</title>
+<link href="<%=request.getContextPath()%>/css/base.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<%@ include file="/include/header.jsp" %>
