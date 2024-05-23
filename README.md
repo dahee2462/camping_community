@@ -37,16 +37,16 @@ GitHub|JQuery||
 
 ✔️ 공지사항, 전체게시글 조회
 
-<img src="https://github.com/dahee2462/camping_community/blob/origin/05.jsp%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C/%EB%A9%94%EC%9D%B8.png" height="500px"><br><br>
+<img src="https://github.com/dahee2462/camping_community/blob/origin/05.jsp%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C/%EB%A9%94%EC%9D%B8.png" height="600px"><br><br>
 
 ## 2️⃣ 게시글
 ✔️ 게시글 목록 (+검색)
 
-<img src="https://github.com/dahee2462/camping_community/blob/origin/05.jsp%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C/%EC%B6%9C%EC%84%9D%EC%B2%B4%ED%81%AC%20%EB%AA%A9%EB%A1%9D.png" height="500px"><br><br>
+<img src="https://github.com/dahee2462/camping_community/blob/origin/05.jsp%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C/%EC%B6%9C%EC%84%9D%EC%B2%B4%ED%81%AC%20%EB%AA%A9%EB%A1%9D.png" height="600px"><br><br>
 
 ✔️ 게시글 상세보기 (+좋아요, 댓글)
 
-<img src="https://github.com/dahee2462/camping_community/blob/origin/05.jsp%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C/%EC%B6%9C%EC%84%9D%EC%B2%B4%ED%81%AC%20%EB%B7%B0.png" height="500px"><br><br>
+<img src="https://github.com/dahee2462/camping_community/blob/origin/05.jsp%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C/%EC%B6%9C%EC%84%9D%EC%B2%B4%ED%81%AC%20%EB%B7%B0.png" height="600px"><br><br>
 
 ✔️ 게시글 작성, 수정 (+첨부파일)
 
