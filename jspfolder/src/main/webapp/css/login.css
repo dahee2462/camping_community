@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+*{
+	margin:0; padding:0; box-sizing: border-box; color: #333;
+}
+a{text-decoration: none; color: inherit;}
+ul{list-style: none;}
+
+.clearfix::after{content: ''; display: block; clear: both;}
+.left{float:left;}
+.right{float:right;}
+.bold{font-weight: bold;}
+
+body{width:1200px; margin:0 auto;}
+/* ********************헤더************************** */
+header{
+	padding:10px; background-color: #efe6d9;
+}
+header #logo{
+	background-color: #39504d; height:100px;
+	text-align:center; line-height:100px;
+	margin: 10px 0;
+}
+#logo>a{display:inline-block; width:100%; color:#f0ede0;}
+#top_menu>a{font-weight: bold;}
+/* **************************본문************************************ */
+section{
+	width:100%;
+	margin: 0 auto;
+	height: calc(100vh - 400px);
+}
+
+section h2{
+	text-align: center;
+	margin: 100px 0;
+}
+/* 테이블 */
+section form{
+	margin: 0 auto;
+}
+form input{
+	display: block; width:250px; height:30px;
+	font-size: 18px; margin: 0 auto; margin-bottom: 10px;
+	
+}
+
+#loginfrm{
+	margin: 0 auto;
+}
+/* 로그인 버튼 */
+#loginbutton{
+	display:block; width:100px; height:35px;
+	font-size : 20px; font-weight:bold;
+	margin: 50px auto;
+	background-color: #efe6d9;
+	border-radius:9px;
+}
+#loginbutton:hover{
+	cursor:pointer;
+	box-shadow: 2px 2px 5px 5px rgba(111,85,47,0.2) inset;
+	transition: all .4s;
+}
+#idpwFind{
+	margin: 0 auto;
+	text-align: center;
+}
+#idpwFind a:first-child{
+	display: inline-block;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #404040;
+}
+#idpwFind a:nth-child(2){
+	display: inline-block;
+	margin-left: 10px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 10px;
+	color: #404040;
+}
+
+#joinQus{
+	text-align: center;
+	padding-top:20px;
+}
+#joinbutton{
+	margin-bottom: 150px;
+}
+#joinbutton a{
+	display: block;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #a50021;
+	text-align:center;
+}
+
+/* *************************푸터******************************** */
+footer{
+	height:12vh; width:100%; padding:30px 0;
+	background-color: #353631;
+}
+footer>div{text-align:center; margin-bottom:5px; color:#fff;}
+footer span{color:#fff;}
+

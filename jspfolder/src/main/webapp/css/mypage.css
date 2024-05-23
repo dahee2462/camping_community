@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/* ***************nav****************************** */
+nav{
+	width: 200px;  float:left;
+	background-color: #efe6d9;
+}
+
+#mypagewelcome{
+	width: 100%; height:200px;
+	
+	
+}
+#mypagenickname{
+	display: inline-block;
+	width: 100%; font-size:30px;
+	margin-top:70px;
+	text-align: center;
+	color:#39504d;
+	font-weight:bold;
+}
+	
+#mypagename{
+	display: inline-block; 
+	width: 100%; height:100px;
+	text-align: center;
+	color:#39504d;
+	font-weight:bold;
+}
+
+.mypagelist{
+	display: inline-block; 
+	font-size: 18px;
+	width: 100%; height:100px;
+	margin-left:30px;
+}
+
+
+/* ***************mypage****************************** */
+
+
+#boardname{
+	font-size: 30px;
+	margin-top:40px;
+	margin-bottom:50px;
+}
+
+.mainpaging{ 
+	width: 100%; height:50px;
+	text-align: center;
+	margin-top:50px;
+}
+
+.paging{
+	display: inline-block; 
+	width: 40px; height:25px;
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+.pagingnum{
+	display: inline-block; 
+	width: 25px; height:25px;
+	border: 1px solid black;
+	text-align: center;
+	
+}
+
+
+
+#search{
+	
+	float: right;
+}
+
+
+
+#select{
+	width:100px; height:25px;
+}
+
+#title{
+	width:200px; height:25px;
+	
+}
+
+#button{
+	width:40px; height:25px;
+}
+
+/* ***************mypage table****************************** */
+
+
+#mypagetable{
+	border-collapse:collapse;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#mypagethead{
+	background-color:lightgray;
+	border-bottom:1px solid gray;
+	height:35px;
+}
+#tr{
+	height:35px;
+	border-bottom:1px solid gray;
+}
+
+#td1{
+	text-align: center;
+	width: 60px; 
+}
+#td2{
+	text-align: center;
+	width: 120px;
+}
+#td3{
+	padding-left:20px;
+	width: 450px;
+}
+#td4{
+	text-align: center;
+	width: 90px;
+}
+#td5{
+	text-align: center;
+	width: 160px;
+}
+#td6{
+	text-align: center;
+	width: 90px;
+}
+
+#td{
+	height:300px;
+	text-align:center;
+}
+#replyspan{
+	padding-left:10px;
+	font-weight:bold;
+	color:orange;
+}
+
+#th3{
+	text-align: center;
+	width: 450px;
+}
+
+/* ***************mypage table****************************** */
+
+
+#mypagePwinput{
+	display:block;
+	width:300px; height:40px;
+	border-radius:9px;
+	padding-left:10px;
+	margin: 200px auto 40px;;
+	
+}
+#mypagePwbutton{
+	font-weight:bold;
+	background-color:#efe6d9;
+	display:block;			
+	border-radius:9px;	
+	width:100px; height:40px;
+	margin:auto;
+}
+#mypagePwbutton:hover{
+	cursor:pointer;
+	box-shadow: 2px 2px 5px 5px rgba(111,85,47,0.2) inset;
+	/* color:#6f552f; */
+	transition: all .4s;
+}
+
+/* ***************mypagemodify table****************************** */
+
+	#mphone1{
+		width:75px;
+	}
+	#mphone2,#mphone3{
+		width:100px;
+	}
+	
+	#modifybutton{
+		width:150px; height:40px;
+		border-radius:8px;
+		background-color:skyblue;
+		margin-top:50px;
+	}
+	
+	/* ***************alllist****************************** */
+	
+#frm1{
+	display:inline-block;
+	
+}
+#frm2{
+	
+	float:right;
+}
+.btnDiv{
+	text-align:right;
+	
+}
+.writeBtn{
+	padding: 5px 10px;
+
+}
+
+/* ***************mypageModify****************************** */
+
+section article form table input{padding: 5px;}
+/* #joinButton{
+	
+	margin: 0 auto;
+	margin-bottom: 200px;
+	background-color: #efe6d9;
+}
+#joinButton:hover{
+	cursor:pointer;
+	box-shadow: 2px 2px 5px 5px rgba(111,85,47,0.2) inset;
+	transition: all .4s;
+} */

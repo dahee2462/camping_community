@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.viewTable{
+	width:100%; margin: 10px 0;
+	border-collapse:collapse;
+}
+.viewTable tr{height: 40px;}
+.viewTable th{
+	text-align:center;
+	background-color:#e8e8e8;
+}
+.viewTable tr:first-child th{
+	width: 100px;
+}
+.viewTable tr:nth-child(3){
+	height:400px; padding: 20px;
+}
+.viewTable td{padding-left:10px;}
+.viewBtn{
+	padding: 2px 5px;
+	font-size: 17px;
+}
+#writeBtns{float:right;}
+.replyfrm{margin-top: 20px; margin-bottom:10px;}
+.replyfrm input[type="text"]{
+	width: 800px; padding: 5px;
+}
+.replyfrm button{
+	padding: 2px 5px; font-size: 17px;
+}
+.replyTable{
+	width: 90%; margin: 10px 0 50px;
+	}
+.replyTable tr{
+	border: 1px solid gray;
+	background-color: #e5e5e5;
+}
+.replyTable tr th{
+	width:80%; float: left; padding-left: 10px;
+	text-align: left;
+}
+.rcontent{
+	font-weight: 300;
+}
+.replyTable tr td{
+	width:20%; float: right; padding-right:10px;
+	text-align: right;
+}
+
+#likeWrap{
+	position: relative;
+	text-align: center;
+}
+
+
+
+#likeCount{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.rereplyInsert input[type=text]{
+	size:10;
+}
+.rereplyInput{
+	margin-left:30px;
+}

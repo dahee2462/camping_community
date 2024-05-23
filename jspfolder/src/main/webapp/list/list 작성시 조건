@@ -1,0 +1,7 @@
+view.jsp에서 목록 버튼을 누를때 blist 파라미터 사용
+모든 리스트에서 view.jsp로 이동시 blist="게시판 타입" 작성해야함
+
+if(searchAlign ==null ){
+		searchAlign = "late";
+	}
+	기본적으로 들어가야함

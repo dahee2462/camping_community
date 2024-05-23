@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+	margin:0; padding:0; box-sizing: border-box; color: #333;
+}
+a{text-decoration: none; color: inherit;}
+ul{list-style: none;}
+
+.clearfix::after{content: ''; display: block; clear: both;}
+.left{float:left;}
+.right{float:right;}
+.bold{font-weight: bold;}
+
+body{width:1200px; margin:0 auto;}
+/* ********************헤더************************** */
+header{
+	padding:10px; background-color: #efe6d9;
+}
+header #logo{
+	background-color: #39504d; height:100px;
+	text-align:center; line-height:100px;
+	margin: 10px 0;
+}
+#logo>a{display:inline-block; width:100%; color:#f0ede0;}
+#top_menu>a{font-weight: bold;}
+/* **************************본문************************************ */
+section{
+	width:900px;
+	background-color:#fff; 
+	margin:20px 250px 50px;
+    padding-bottom: 200px;
+    padding-top:50px;
+}
+#formDiv{
+	margin-right:210px;
+}
+#hello{
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+/* 테이블 */
+table{
+	border-collapse:collapse;
+	margin:50px 210px;
+}
+#trTitle{
+   width: 200px;
+   height: 40px;
+   padding-top: 10px;
+   padding-right: 110px;
+   padding-bottom: 10px;
+}
+#trTitle th{
+	text-align: left;
+	font-size: 21px;
+}
+.textbox{
+	width:295px; height:25px;
+	font-size: 18px;
+}
+.phone{
+	width: 86px; height:25px;
+}
+
+/* 경고문 */
+.blur td{
+	text-align: left;
+	color: red;
+	font-size: 15px;
+}
+/* 아이디 조회 버튼 */
+#idSearchButton{
+	font-weight:bold;
+	background-color:#efe6d9;
+	display:block;			
+	border-radius:9px;	
+	width: 200px; height:40px;
+	margin-left: 250px;
+	font-size : 20px;
+}
+#idSearchButton:hover{
+	cursor:pointer;
+	box-shadow: 2px 2px 5px 5px rgba(111,85,47,0.2) inset;
+	transition: all .4s;
+}
+/* 버튼 */
+#findPwQus{
+	text-align: center;
+	margin-right: 195px;
+	padding-top: 40px;
+}
+#findPwButton a{
+	display: block;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 300px;
+	color: #a50021;
+}
+
+
+/* *************************푸터******************************** */
+footer{
+	height:12vh; width:100%; padding:30px 0;
+	background-color: #353631;
+}
+footer>div{text-align:center; margin-bottom:5px; color:#fff;}
+footer span{color:#fff;}
+

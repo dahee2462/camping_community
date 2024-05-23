@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 *{
 	margin:0; padding:0; box-sizing: border-box; color: #333;
@@ -10,107 +22,98 @@ ul{list-style: none;}
 .left{float:left;}
 .right{float:right;}
 .bold{font-weight: bold;}
+.block{display:block;}
+.hidden{display:none;}
 
 body{width:1200px; margin:0 auto;}
+.container{display:flex;}
+
 /* ********************헤더************************** */
 header{
 	padding:10px; background-color: #efe6d9;
 }
-header #logo{
-	background-color: #39504d; height:100px;
-	text-align:center; line-height:100px;
-	margin: 10px 0;
+header #top_banner a{
+	margin-top: 5px;
 }
-#logo>a{display:inline-block; width:100%; color:#f0ede0;}
+header #top_banner a:hover{
+	font-weight:bold;
+	color: white; 
+	transition:all .4s;
+	
+}
+
+header #logo {
+    background-color: #39504d;
+    /* background-image: url(../images/배경사진.gif); */
+    height: 120px;
+    text-align: center;
+    line-height: 100px;
+    /* margin: 10px 0; */
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#logo>a {
+    display: inline-block;
+    width: 100%;
+    color: #f0ede0;
+    /* font-family: 'JalnanGothic'; */
+    font-family: 'BMDOHYEON';
+    line-height: 120px;
+    letter-spacing: 20px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
 #top_menu>a{font-weight: bold;}
-header #webserch{
-	width: 200px; height: 30px;
-	background-color: #ddd;
+#top_menu>a:hover{color:white; transition:all .4s;}
+#websearch form input[type="text"]{height:25px;}
+#websearch a{
+	display: inline-block; width: 60px; height:20px; 
+	border-radius:10px; overflow:hidden;
 	}
+#websearch a img{display: inline-block; width: 100%;}
 /* **********************메뉴********************************* */
 nav{
-	width: 200px; height: 80vh; float:left;
+	width: 200px; float:left;
 	background-color: #efe6d9;
 }
 
 #welcome{
-	width: 100%; height:100px;
+	width: 100%; height:100px; padding-top: 20px;
 	background-color:#f1bf3a;
 }
+#welcome p, #welcome span{
+	text-align:center; color:#8c3b0e; font-weight: bold;
+	}
+#welcome a{
+	font-weight: bold; color:#dd6d2f; 
+	margin-left: 57px;
+	}
+#welcome a:hover{color: brown; transition:all .4s;}
+/* 검색 */
 .searchMain{margin:10px 20px;}
+.searchMain input[type="text"]{width:120px;}
 .menu{padding:20px 10px;}
 .menu>li>a{
 	font-weight: bold; 
 	display: inline-block;
 	padding: 5px 10px;
 }
-.submenu>li{padding-left:10px;}
-
-#thecheat{
-	width: 100px; height:50px;
-	background-color:yellow;
-}
-
-/* ***************마이페이지용 메뉴****************************** */
-
-#mypagewelcome{
-	width: 100%; height:200px;
-	
-	
-}
-#mypagenickname{
-	width: 100%; font-size:30px;
-	display: inline-block;
-	margin-top:80px;
-}
-	
-#mypagename{
-	width: 100%; height:100px;
-	display: inline-block; 
-
-}
-
+.menu>li>a:hover{color: white; transition:all .4s;}
+.submenu>li{padding-left:20px;}
+.submenu>li>a:hover{color: white; transition:all .4s;}
 /* **************************본문************************************ */
 section{
-	width:900px; height: 80vh;
+	width:900px;
 	background-color:#fff; 
-	margin-left:250px; margin-top: 20px;
-	margin-right:50px;
-	
+	padding-top: 20px;
+	padding-bottom: 100px;
+	margin: 0 auto;
 }
-#weader{margin-top:20px;}
-#youtube{margin: 20px auto;}
-#youtube>iframe:nth-child(1){margin-right:5px;}
-#adbanner{
-	width: 100%; height: 200px;
-	background-color:green;
-	}
-.mainboard{display:flex; margin:20px 0;}
-.mainboard>div{
-	flex:1; padding: 0 10px;	
-}
-.mboardmn{
-	padding: 10px 20px;
-	background-color:gray;
-}
-.mboardmn h3{float:left;}
-.mboardmn .mainmore{float:right;}
-.mainlist li{
-	padding:5px 20px;
-	background-color: #efe6d9;
-}
-.mainlist li::after{content: ''; display: block; clear: both;}
-.mainlist li a{
-	display:inline-block; float:left;
-}
-.mainlist .mlistdate{
-	font-size: 12px; color: #beb5a2;
-	float:right;
-}
-
 /* *************************푸터******************************** */
 footer{
-	height:12vh; width:100%; padding:30px 0;
+	height:100px; width:100%; padding:20px 0;
 	background-color: #353631;
 }
 footer>div{text-align:center; margin-bottom:5px; color:#fff;}

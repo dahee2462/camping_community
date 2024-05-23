@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/************************네비**************************/
+nav{
+	width: 200px;  float:left;
+	background-color: #efe6d9;
+}
+
+#mypagewelcome{
+	width: 100%; height:200px;
+	
+	
+}
+#mypagenickname{
+	display: inline-block;
+	width: 100%; font-size:30px;
+	margin-top:70px;
+	text-align: center;
+}
+	
+#mypagename{
+	display: inline-block; 
+	width: 100%; height:100px;
+	text-align: center;
+}
+
+.mypagelist{
+	display: inline-block; 
+	font-size: 18px;
+	width: 100%; height:100px;
+	margin-left:30px;
+}
+
+/************************섹션**************************/
+section > h2{
+	font-weight: 400;
+	font-size: 30px;
+	margin: 40px 0 50px;
+}
+.frms::after{content: ''; display: inline-block; clear: both;}
+#frm1{float:left;}
+#frm2{float: right;}
+form>select{
+	width:100px; height:25px;
+}
+
+#frm2 input[type="text"]{
+	width:200px; 
+	 padding:5px 0;
+}
+/* 버튼 */
+.searchBtn{
+	width:40px; height:25px;
+}
+.btnDiv{ text-align:right;}
+.writeBtn{
+	padding: 5px 10px;
+}
+/* 리스트테이블 */
+.listTable{
+	border-collapse:collapse;
+	margin:20px 0;
+	width:100%;
+}
+.listTable tr{
+	height:35px; width:100%;
+	border-bottom:1px solid gray;
+}
+.listTable thead tr{
+	background-color:lightgray;
+}
+
+.listTable th:nth-child(1){width:55px;}
+.listTable th:nth-child(2){width:121px;}
+.listTable th:nth-child(3){width:410px;}
+.listTable th:nth-child(4){width:90px;}
+.listTable th:nth-child(5){width:150px;}
+.listTable th:nth-child(6){width:85px;}
+
+.listTable td{text-align:center;}
+.listTable td:nth-child(3){text-align:left;  padding-left: 20px;}
+
+/* 댓글 */
+#replyspan{
+	padding-left:10px;
+	font-weight:bold;
+	color:orange;
+}
+/* 페이징 */
+.paging{text-align:center; margin-top: 50px;}
+.paging a{
+	display: inline-block;
+	width: 25px; height:25px;
+	border: 1px solid black;	
+}
+.paging .pluspage{
+	width: 40px;
+}
+

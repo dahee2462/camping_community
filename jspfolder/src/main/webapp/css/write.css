@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.container h2{
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.writeTable{
+	width:100%; margin: 10px 0;
+	border-collapse:collapse;
+}
+.writeTable tr{height: 40px;}
+.writeTable th{
+	text-align:center;
+	background-color:#e8e8e8;
+}
+.writeTable tr:first-child td{text-align:center;}
+.writeTable tr:first-child td input[type=text]{
+	width:100%; height:40px; padding:10px;
+	border: hidden;
+}
+.writeTable td select{
+	width:100%; height: 40px;
+}
+.writeTable td select option{
+	width:100%; height: 40px;
+	border:hidden;
+}
+.writeTable tr:second-child td{
+	height:400px;
+}
+.writeTable tr td textarea{
+	width:100%; height:400px;
+	padding:20px;
+	border: hidden;	
+}
+.writeTable tr:last-child td{
+	padding-left: 20px;
+}
+.writeBtns{
+	margin-left:45%;
+	margin-top: 20px;
+	}
+.writeBtns button{
+	padding: 2px 5px;
+	font-size: 17px;
+	margin-right: 10px;
+}
+
+/*write*/
+.cancleBtn{
+	margin-left:43%;
+	margin-top: 20px;
+	padding: 2px 5px;
+    font-size: 17px;
+}
+.saveBtn{
+	margin-left: 2%;
+	margin-top: 20px;
+	padding: 2px 5px;
+	font-size: 17px;
+}
