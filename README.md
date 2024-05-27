@@ -40,7 +40,7 @@ GitHub|JQuery||
 <img src="https://github.com/dahee2462/camping_community/blob/origin/05.jsp%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C/%EB%A9%94%EC%9D%B8.png" height="600px"><br><br>
 
 ## 2️⃣ 게시글
-✔️ 게시글 목록 (+검색)
+✔️ 게시글 목록 (+검색, 페이징)
 
 <img src="https://github.com/dahee2462/camping_community/blob/origin/05.jsp%EC%84%A4%EA%B3%84%20%EB%AC%B8%EC%84%9C/%EC%B6%9C%EC%84%9D%EC%B2%B4%ED%81%AC%20%EB%AA%A9%EB%A1%9D.png" height="600px"><br><br>
 
